@@ -1,0 +1,20 @@
+[package]
+name = "spacewm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+block2 = "0.6.2"
+env_logger = "0.11.11"
+interprocess = "2.4.2"
+log = "0.4.33"
+objc2 = "0.6.4"
+objc2-accessibility = "0.3.2"
+objc2-app-kit = "0.3.2"
+objc2-application-services = { version = "0.3.2", features = ["AXUIElement", "HIServices"] }
+objc2-core-foundation = "0.3.2"
+objc2-core-graphics = "0.3.2"
+objc2-foundation = "0.3.2"
+serde = { version = "1.0.228", features = ["derive"] }
+tokio = { version = "1.52.3", features = ["full"] }
+toml = "1.1.2"
